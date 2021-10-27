@@ -7,8 +7,9 @@
 
 from pprint import pprint
 from time import sleep
+from src.testproject.sdk.drivers import webdriver
 
-driver = Chrome ()
+driver = webdriver.Chrome()
 driver.get("https://parabank.parasoft.com/parabank/index.htm")
 
 
